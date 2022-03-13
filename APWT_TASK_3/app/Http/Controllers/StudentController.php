@@ -18,7 +18,6 @@ class StudentController extends Controller
             'address'=>'address',
             'email'=>'required',
             'phonenu'=>'required',
-            'password'=>'required',
     
         ],
         [
@@ -26,7 +25,6 @@ class StudentController extends Controller
            
             'phonenu.required'=>'Please Enter Your Phone Number',
             'email.required'=>'Please Enter Your Email',
-            'password.required'=>'Please Enter Your password',
         ]
         );
     
@@ -55,7 +53,7 @@ public function loginSubmit(Request $request)
     ]
     );
 
-return "Welcome Marfy ";
+
 }
 
   

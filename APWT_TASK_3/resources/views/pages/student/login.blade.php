@@ -11,7 +11,7 @@
     @enderror
     <br>
     <label for="">Password</label>
-    <input type="password" class="form-control" name="password" value="{{old('password')}}">
+    <input type="password" class="form-control" name="phoneno" value="{{old('password')}}">
     @error('password')
     <span>{{$message}}</span>
     @enderror

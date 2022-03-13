@@ -20,12 +20,6 @@
     <span>{{$message}}</span>
     @enderror
     <br>
-    <label for="">Password</label>
-    <input type="password" class="form-control" name="password" value="{{old('password')}}">
-    @error('password')
-    <span>{{$message}}</span>
-    @enderror
-    <br>
     <label for="">PhoneNumber</label>
     <input type="text" class="form-control" name="phonenu" value="{{old('phoneno')}}">
     @error('phonenu')
